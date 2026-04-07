@@ -1,7 +1,6 @@
 # 0407
-## Initialization
+## 隨便打字
 **$\hat{h}(0) = zeros(p)$**
-
 ---
 
 ## Computation
@@ -23,7 +22,6 @@ $$
 $$
 
 ---
-
 ## Notes
-- 使用自適應更新
-- 類似 NLMS 方法
+- 人工智慧作業
+
