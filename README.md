@@ -1,5 +1,5 @@
 # 0407
-## 隨便打字
+## Initialization
 **$\hat{h}(0) = zeros(p)$**
 ---
 
