@@ -14,6 +14,7 @@ $$
 $$
 \hat{h}(n+1) = \hat{h}(n) + \frac{\mu\, e^*(n)\mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)}
 $$
+
 ---
 ## Notes
 - 人工智慧作業
