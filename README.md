@@ -1,26 +1,19 @@
 # 0407
-## Initialization
-**$\hat{h}(0) = zeros(p)$**
----
+Initialization: $\hat{h}(0) = \mathrm{zeros}(p)$
 
-## Computation
-For `n = 0, 1, 2, ...`
+Computation: For $n = 0,1,2,\ldots$
 
-### Input Vector
 $$
-x(n) = [x(n), x(n-1), \dots, x(n-p+1)]^T
+\mathbf{x}(n) = \left[ x(n), x(n-1), \ldots, x(n-p+1) \right]^T
 $$
 
-### Error
 $$
-e(n) = d(n) - \hat{h}^H(n)x(n)
-$$
-
-### Update
-$$
-\hat{h}(n+1) = \hat{h}(n) + \frac{\mu e^*(n)x(n)}{x^H(n)x(n)}
+e(n) = d(n) - \hat{h}^H(n)\mathbf{x}(n)
 $$
 
+$$
+\hat{h}(n+1) = \hat{h}(n) + \frac{\mu\, e^*(n)\mathbf{x}(n)}{\mathbf{x}^H(n)\mathbf{x}(n)}
+$$
 ---
 ## Notes
 - 人工智慧作業
